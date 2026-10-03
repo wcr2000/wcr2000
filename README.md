@@ -20,6 +20,8 @@ I build AI that does real work: reading handwritten slips, catching fraud before
 
 [AI agents & teaching](#ai-agents--teaching) · [Document AI & vision](#document-ai--vision) · [Platforms & data](#platforms--data) · [Side quests](#side-quests) · [The AI Factory](#meanwhile-on-the-factory-floor)
 
+> **Featured · [Thai Handwriting OCR](https://github.com/wcr2000/thai-handwriting-ocr)** — built in a temple car park during the 2026 floods, from empty repository to production in a little over two hours. I benchmarked 11 vision models on real Thai handwriting before picking one, kept a human in the loop so no slip is ever trusted unreviewed, and the last feature I shipped removed the need for the OCR altogether. **8,401 slips · ฿335 of inference.**
+
 ## AI agents & teaching
 
 <table width="100%">
@@ -52,9 +54,9 @@ I build AI that does real work: reading handwritten slips, catching fraud before
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3><img src="images/icons/document.svg" width="28" height="28" alt=""> Handwritten slip OCR <img src="https://img.shields.io/badge/private-2f2f2f?style=flat-square" alt="private"></h3>
-      <p>Photograph a handwritten parking slip and an LLM reads it. A person confirms the reading, and it's saved to Postgres. When the owner comes back, fuzzy search finds the record even with a misspelt name or a wrong digit.</p>
-      <p><sub>FastAPI · OpenRouter · Postgres · human in the loop</sub></p>
+      <h3><img src="images/icons/document.svg" width="28" height="28" alt=""> <a href="https://github.com/wcr2000/thai-handwriting-ocr">Thai Handwritten Slip OCR</a></h3>
+      <p>Flood response, 2026. Photograph a handwritten parking slip and an LLM reads it; a person confirms before anything counts; fuzzy search finds the owner later even with a misspelt name or a wrong digit. Live in production: <b>8,401 slips</b>, busiest day 3,290, and a total AI bill of <b>฿335</b>.</p>
+      <p><sub>11 vision models benchmarked · FastAPI · OpenRouter · Postgres · human in the loop</sub></p>
     </td>
     <td width="50%" valign="top">
       <h3><img src="images/icons/document.svg" width="28" height="28" alt=""> <a href="https://github.com/wcr2000/ocr-guide">OCR Guide (Thai focus)</a></h3>
