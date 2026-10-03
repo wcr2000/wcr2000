@@ -20,7 +20,7 @@ I build AI that does real work: reading handwritten slips, catching fraud before
 
 [AI agents & teaching](#ai-agents--teaching) · [Document AI & vision](#document-ai--vision) · [Platforms & data](#platforms--data) · [Side quests](#side-quests) · [The AI Factory](#meanwhile-on-the-factory-floor)
 
-> **Featured · [Thai Handwriting OCR](https://github.com/wcr2000/thai-handwriting-ocr)** — built in a temple car park during the 2026 floods, from empty repository to production in a little over two hours. I benchmarked 11 vision models on real Thai handwriting before picking one, kept a human in the loop so no slip is ever trusted unreviewed, and the last feature I shipped removed the need for the OCR altogether. **8,401 slips · ฿335 of inference.**
+> **Featured · [Thai Handwriting OCR](https://github.com/wcr2000/thai-handwriting-ocr)** — built in a temple car park during the 2026 floods, from empty repository to production in a little over two hours. I benchmarked 11 vision models on real Thai handwriting before picking one, kept a human in the loop so no slip is ever trusted unreviewed, and the last feature I shipped removed the need for the OCR altogether. **8,401 slips · US$10 of inference.**
 
 ## AI agents & teaching
 
@@ -55,7 +55,7 @@ I build AI that does real work: reading handwritten slips, catching fraud before
   <tr>
     <td width="50%" valign="top">
       <h3><img src="images/icons/document.svg" width="28" height="28" alt=""> <a href="https://github.com/wcr2000/thai-handwriting-ocr">Thai Handwritten Slip OCR</a></h3>
-      <p>Flood response, 2026. Photograph a handwritten parking slip and an LLM reads it; a person confirms before anything counts; fuzzy search finds the owner later even with a misspelt name or a wrong digit. Live in production: <b>8,401 slips</b>, busiest day 3,290, and a total AI bill of <b>฿335</b>.</p>
+      <p>Flood response, 2026. Photograph a handwritten parking slip and an LLM reads it; a person confirms before anything counts; fuzzy search finds the owner later even with a misspelt name or a wrong digit. Live in production: <b>8,401 slips</b>, busiest day 3,290, and a total AI bill of <b>US$10</b>.</p>
       <p><sub>11 vision models benchmarked · FastAPI · OpenRouter · Postgres · human in the loop</sub></p>
     </td>
     <td width="50%" valign="top">
