@@ -158,7 +158,7 @@ def banner(stats: dict, mode: str) -> str:
 {''.join(nodes)}
 <text x="64" y="74" font-family="{MONO}" font-size="15" fill="{p["accent"]}">~/watchara $ whoami<tspan class="cursor">▍</tspan></text>
 <text x="62" y="134" font-family="{FONT}" font-size="54" font-weight="800" fill="{p["ink"]}">Watchara <tspan fill="{p["accent"]}">“First”</tspan></text>
-<text x="64" y="176" font-family="{FONT}" font-size="20" fill="{p["muted"]}">AI engineer · automation builder · AI teacher at <tspan fill="{p["teal"]}" font-weight="700">AI พารวย</tspan></text>
+<text x="64" y="176" font-family="{FONT}" font-size="20" fill="{p["muted"]}">AI engineer · automation builder · AI teacher </text>
 {''.join(chip_svg)}
 <text x="1136" y="284" text-anchor="end" font-family="{MONO}" font-size="10" fill="{p["muted"]}">updated {escape(stats["updated"])}</text>
 </svg>
