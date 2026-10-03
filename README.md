@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-I build AI that does real work: reading handwritten slips, catching fraud before the money is gone, and moving data between systems that were never meant to talk to each other. I also teach people in Thailand to build their own AI employees under **AI พารวย**. Mostly Python and TypeScript, with a Rust game on the side.
+I build AI that does real work: reading handwritten slips, catching fraud before the money is gone, and moving data between systems that were never meant to talk to each other. I also teach people in Thailand to build their own AI employees under **AI Paruay**. Mostly Python and TypeScript, with a Rust game on the side.
 
 ![Python](https://img.shields.io/badge/Python-2f6f73?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-1f2430?style=flat-square&logo=typescript&logoColor=white)
